@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WyCash.Core
+﻿namespace WyCash.Core
 {
     // Note: Steps of refactoring are preserved and annotated below.
     // This illustrates the minimum steps needed to make the test pass first.
