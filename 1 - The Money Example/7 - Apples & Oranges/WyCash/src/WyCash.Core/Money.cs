@@ -9,7 +9,8 @@ namespace WyCash.Core
         public override bool Equals(object obj)
         {
             Money money = (Money)obj;
-            return _amount == money._amount;
+            return _amount == money._amount && 
+                   GetType().Equals(money.GetType());
         }
     }
 }
