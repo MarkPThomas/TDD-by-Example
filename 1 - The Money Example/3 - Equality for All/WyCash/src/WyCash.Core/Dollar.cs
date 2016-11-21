@@ -18,17 +18,19 @@ namespace WyCash.Core
             Amount = amount;
         }
 
-        // Step 1: Change void to Dollar
-        // VALUE PATTERN
-        // The implementation below of the method returning a new object instead of changing the current object is an implementation of "Value Pattern".
         public Dollar Times(int multiplier)
         {
-            // Step 1: Return null to make the function valid. Test fails since null is not expected.
-            // Amount *= multiplier;
-            // return null;
-
-            // Step 2: Refactor to make this functional.
             return new Dollar(Amount * multiplier);
+        }
+
+        public override bool Equals(object obj)
+        {
+            // 1. First step to make the test pass.
+            //return true;
+
+            // 2. Generalize equality based on triangulation tests
+            Dollar dollar = (Dollar)obj;
+            return Amount == dollar.Amount;
         }
     }
 }
