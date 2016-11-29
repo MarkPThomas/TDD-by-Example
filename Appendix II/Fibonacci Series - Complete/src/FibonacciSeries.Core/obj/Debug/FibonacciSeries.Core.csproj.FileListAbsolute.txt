@@ -1,0 +1,4 @@
+C:\Users\Mark\Documents\GitHub\CSharp\TDD-by-Example\Appendix II\Fibonacci Series\src\FibonacciSeries.Core\bin\Debug\FibonacciSeries.Core.dll
+C:\Users\Mark\Documents\GitHub\CSharp\TDD-by-Example\Appendix II\Fibonacci Series\src\FibonacciSeries.Core\bin\Debug\FibonacciSeries.Core.pdb
+C:\Users\Mark\Documents\GitHub\CSharp\TDD-by-Example\Appendix II\Fibonacci Series\src\FibonacciSeries.Core\obj\Debug\FibonacciSeries.Core.dll
+C:\Users\Mark\Documents\GitHub\CSharp\TDD-by-Example\Appendix II\Fibonacci Series\src\FibonacciSeries.Core\obj\Debug\FibonacciSeries.Core.pdb
